@@ -3014,12 +3014,12 @@
 		(uuid "0f8941a7-ed30-409e-9a9e-f03fcde51fac")
 	)
 	(no_connect
-		(at 62.23 53.34)
-		(uuid "7806c112-7b45-4506-a761-e3ab4c24668e")
+		(at 39.37 118.11)
+		(uuid "4185b3a0-bd0a-4919-944c-b9f5b0de2848")
 	)
 	(no_connect
-		(at 64.77 186.69)
-		(uuid "d897cf0b-b040-42b9-b670-e60629c6a483")
+		(at 62.23 53.34)
+		(uuid "7806c112-7b45-4506-a761-e3ab4c24668e")
 	)
 	(no_connect
 		(at 62.23 50.8)
@@ -3137,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 118.11) (xy 29.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0abcd312-3030-4457-a8ff-92cc60024662")
-	)
-	(wire
-		(pts
 			(xy 92.71 143.51) (xy 92.71 161.29)
 		)
 		(stroke
@@ -3197,6 +3187,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 161.29) (xy 62.23 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130e1ec5-5247-424f-bade-bf326518c612")
+	)
+	(wire
+		(pts
 			(xy 39.37 133.35) (xy 39.37 135.89)
 		)
 		(stroke
@@ -3214,16 +3214,6 @@
 			(type solid)
 		)
 		(uuid "166aa927-5811-48e7-8c35-172b49849f8d")
-	)
-	(wire
-		(pts
-			(xy 74.93 168.91) (xy 69.85 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24a2c991-6839-4091-bd27-ab333c8f8b4f")
 	)
 	(wire
 		(pts
@@ -3294,16 +3284,6 @@
 			(type default)
 		)
 		(uuid "32c4cf9b-9c25-44ce-9273-3682b7663849")
-	)
-	(wire
-		(pts
-			(xy 74.93 186.69) (xy 74.93 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346ef7f6-c365-4563-a643-a16abd6a7096")
 	)
 	(wire
 		(pts
@@ -3587,16 +3567,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 118.11) (xy 29.21 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "883eff96-2d8c-401e-b5b3-ea3d91858de0")
-	)
-	(wire
-		(pts
 			(xy 78.74 110.49) (xy 91.44 110.49)
 		)
 		(stroke
@@ -3647,16 +3617,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 186.69) (xy 85.09 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98d6649d-3115-45a2-bb75-d5b5c057c7c0")
-	)
-	(wire
-		(pts
 			(xy 118.11 48.26) (xy 125.73 48.26)
 		)
 		(stroke
@@ -3684,6 +3644,16 @@
 			(type default)
 		)
 		(uuid "ae9a8a65-1413-45bc-ade1-e9cc784c3f5c")
+	)
+	(wire
+		(pts
+			(xy 69.85 168.91) (xy 69.85 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa04325-10ca-4e0f-ba20-55c06500151d")
 	)
 	(wire
 		(pts
@@ -3987,6 +3957,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 186.69) (xy 85.09 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f415556c-2205-4cde-a3e1-8babc11fed9a")
+	)
+	(wire
+		(pts
 			(xy 78.74 90.17) (xy 91.44 90.17)
 		)
 		(stroke
@@ -4004,16 +3984,6 @@
 			(type default)
 		)
 		(uuid "fee1ba80-e701-493c-b150-ad639e0aec7b")
-	)
-	(wire
-		(pts
-			(xy 29.21 171.45) (xy 64.77 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff55cbe5-f688-430d-b301-145769484c41")
 	)
 	(global_label "row2"
 		(shape input)
@@ -8631,73 +8601,6 @@
 		)
 	)
 	(symbol
-		(lib_name "VCC_1")
-		(lib_id "power:VCC")
-		(at 72.39 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a55dede-508b-460b-8e14-cff00dff159e")
-		(property "Reference" "#PWR018"
-			(at 72.39 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 72.39 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 72.39 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ebfbc48-3f77-4e45-841a-103656c9a475")
-		)
-		(instances
-			(project "swoopt-soldered"
-				(path "/471b6803-5d15-4f73-aeb4-3a263e2bc423"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "D_Small_1")
 		(lib_id "Device:D_Small")
 		(at 78.74 107.95 90)
@@ -10388,73 +10291,6 @@
 		)
 	)
 	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 57.15 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8c830df-252b-4d1b-a5e8-93d3c537e280")
-		(property "Reference" "#PWR017"
-			(at 57.15 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8c30a8e1-7f66-4a14-941f-804e9d0bfb43")
-		)
-		(instances
-			(project "swoopt-soldered"
-				(path "/471b6803-5d15-4f73-aeb4-3a263e2bc423"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "inpulib:U_ProMicro_nRF52840")
 		(at 44.45 39.37 0)
 		(unit 1)
@@ -10678,7 +10514,7 @@
 	)
 	(symbol
 		(lib_id "swoop:SK6812MINI-E")
-		(at 64.77 179.07 270)
+		(at 69.85 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10686,7 +10522,7 @@
 		(dnp no)
 		(uuid "d1feeda5-90b6-4264-ac38-002820010aa1")
 		(property "Reference" "L18"
-			(at 60.325 175.26 90)
+			(at 74.295 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10695,7 +10531,7 @@
 			)
 		)
 		(property "Value" "SK6812Mini-e"
-			(at 67.945 184.785 90)
+			(at 66.675 173.355 90)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -10703,7 +10539,7 @@
 			)
 		)
 		(property "Footprint" "swoop:SK6812_Mini_E"
-			(at 64.77 179.07 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10712,7 +10548,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 179.07 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10720,7 +10556,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 179.07 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10564,7 @@
 			)
 		)
 		(property "JLCPCB BOM" "0"
-			(at 64.77 179.07 0)
+			(at 69.85 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
