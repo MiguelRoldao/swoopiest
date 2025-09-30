@@ -435,7 +435,7 @@
 		(at 2.7 -0.775 180)
 		(size 1.6 0.85)
 		(layers "F.Cu")
-		(zone_connect 2)
+		(zone_connect 0)
 		(options
 			(clearance outline)
 			(anchor rect)
@@ -455,7 +455,7 @@
 		(at 2.7 0.975 180)
 		(size 1.6 0.85)
 		(layers "B.Cu")
-		(zone_connect 2)
+		(zone_connect 0)
 		(options
 			(clearance outline)
 			(anchor rect)
