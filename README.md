@@ -59,4 +59,4 @@ Whether by use of a tiny piece of wire, or with a solder blob.
 ## Firmware
 
 The firmware is available in my QMK repo as `diaffractus/swoopiest`.  
-You can get started by using QMK's [online configurator](https://config.qmk.fm/#/bluebell/swoop/LAYOUT_split_3x5_3). Or check the [Swoop README file](https://github.com/qmk/qmk_firmware/blob/master/keyboards/bluebell/swoop/readme.md) to see how to compile the firmware locally.
+You can get started by using QMK's [online configurator](https://config.qmk.fm/#/bluebell/swoop/LAYOUT_split_3x5_3). Or check [The Swoopiest README file](https://github.com/MiguelRoldao/qmk-home/blob/master/keyboards/diaffractus/swoopiest/readme.md) to see how to compile the firmware locally.
